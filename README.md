@@ -43,7 +43,7 @@ To run the programs you need:
 | `Lorenz_attractor_simulink.slx`| Required by `HGO_parameters_Case_I.m` to compute the states of the Lorenz attractor for reference tracking. |
 | `Lorenz_attractor_fnc.m`       | Contains the model of the Lorenz attractor and is used by the Simulink file `Lorenz_attractor_simulink.slx`. |
 | `results.m`                    | Generates the plots presented in the article. This script runs automatically once a main Simulink file completes the simulation. |  
-| `px_final.mat` and 'py_final.mat'  | These files contain the adquired values in the robot's workspace (Px, Py) for Case III. They are automatically loaded when 'HGO_robot_CASE_III.slx is executed'|  
+| `px_final.mat` and `py_final.mat`  | These files contain the adquired values in the robot's workspace (Px, Py) for Case III. They are automatically loaded when 'HGO_robot_CASE_III.slx is executed'|  
 
 
 
